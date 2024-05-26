@@ -90,7 +90,7 @@ void SendCMDPacketToBootloader(char packetLength);
 void setup() 
 {
   Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, 16, 17);
+  Serial.begin(115200, SERIAL_8N1);
 
 #if defined(ARDUINO_RASPBERRY_PI_PICO_W)
   multi.addAP(WIFI_SSID, WIFI_PASSWORD);
@@ -234,7 +234,7 @@ void SendCMDPacketToBootloader(char packetLength)
 {
   for(uint8_t dataIndex = 0 ; dataIndex < packetLength ; dataIndex++)
   {
-    Serial2.write(packet[dataIndex]);
+    Serial1.write(packet[dataIndex]);
     Serial.print(packet[dataIndex], HEX);
     Serial.print(" ");
   }
@@ -247,14 +247,14 @@ char receiveBuffer[16]; // Buffer to store received data
 void onReceiveFunction(void) 
 {
   // This is a callback function that will be activated on UART RX events
-  size_t available = Serial2.available();
+  size_t available = Serial1.available();
   Serial.printf("onReceive Callback:: There are %d bytes available: ", available);
   
   // Clear receiveBuffer before receiving new data
   memset(receiveBuffer, 0, sizeof(receiveBuffer));
   
   for (size_t i = 0; i < available; i++) {
-    receiveBuffer[i] = Serial2.read();
+    receiveBuffer[i] = Serial1.read();
     Serial.print(receiveBuffer[i], HEX);
   }
   // Publish the message only if there's data in the buffer
@@ -269,7 +269,7 @@ void onReceiveFunction(void)
 // Receive reply from STM32 bootloader
 void ReceiveReplyFromBootloader()
 {
-  Serial2.onReceive(onReceiveFunction, 5000);
+  Serial1.onReceive(onReceiveFunction, 5000);
 }
 
 // Bootloader Supported Commands' Functions 
