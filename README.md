@@ -43,6 +43,9 @@
 - [Special Thanks](#Special-Thanks)
 - [Video](#Video)
 ## General Overview For the Project
+
+![image](https://github.com/Tarek191020/FOTA-ADAS-Project/assets/109293965/9e4db5a2-ca06-4cfa-a68d-501ced92a1c7)
+
 🌍 Firmware Over-The-Air (FOTA) updates and Advanced Driver Assistance Systems (ADAS) are revolutionizing the automotive industry. By seamlessly integrating FOTA and ADAS technologies, vehicles are becoming safer, smarter, and more efficient
 ### FOTA
 Firmware Over-The-Air (FOTA) enables wireless updates of vehicle software, ensuring efficient and convenient maintenance. By remotely updating firmware, automakers can enhance vehicle performance, security, and functionality with minimal disruption to drivers.
