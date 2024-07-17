@@ -32,7 +32,6 @@
 - PuTTY: Serial Communication <img width="40" align="center" src="/assets/Main/puttyLogo.png">
 - FireBase: Database for updated code to upload
 - NodeRed: Dashboard
-- MQTT
 <hr>
 
 
