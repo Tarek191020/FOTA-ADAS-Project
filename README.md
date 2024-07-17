@@ -19,7 +19,7 @@
 
 - <a href="https://www.linkedin.com/in/roaa-aiman-0613a41b7/" target="_blank">Roaa Aiman</a> 
 
-- Mohamed Hussein
+- <a href="https://www.linkedin.com/in/mohamed-hussein-28a681213/" target="_blank"> Mohamed Hussein</a> 
 <hr>
 
 ### 👨‍💻 Technical Overview For the Project
