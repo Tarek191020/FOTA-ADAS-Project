@@ -38,8 +38,8 @@
 ## Table of Contents
 
 - [General Overview For the Project](#General-Overview-For-the-Project)
-- [Firmware Over The Air (FOTA)](#Firmware-Over-The-Air-(FOTA))
-- [BootLoader](#Bootloader)
+- [Firmware Over The Air (FOTA)](#Firmware-Over-The-Air)
+- [BootLoader](#Bootlaoder)
 - [Advanced Driving Assistant System (ADAS)](#Advanced-Driving-Assistant-System-(ADAS))
 - [CAN Communication](#CAN-Communication)
 - [Special Thanks](#Special-Thanks)
@@ -75,7 +75,7 @@ writing..............
 
 
 
-## Firmware Over The Air (FOTA)
+## Firmware Over The Air
 
 ## FIREBASE
 
