@@ -41,7 +41,7 @@
 - [Firmware Over The Air (FOTA)](#Firmware-Over-The-Air)
 - [BootLoader](#Bootlaoder)
 - [Advanced Driving Assistant System (ADAS)](#Advanced-Driving-Assistant-System-(ADAS))
-- [CAN Communication](#CAN-Communication)
+- [CAN Communication](#CAN-Communication-protocol)
 - [Special Thanks](#Special-Thanks)
 - [Video](#Video)
 ## General Overview For the Project
@@ -229,7 +229,7 @@ Advanced Driver Assistance Systems (ADAS) integrate various technologies to enha
 
 ADAS encompasses a wide range of features like Manual control, autonomous, auto parking, and automatic emergency braking. Real-world data demonstrates  that vehicles equipped with ADAS technologies have shown a significant reduction in accidents and enhanced driver safety.
 ## <p align="center"><a href="github.com/Tarek191020/FOTA-ADAS-Project/tree/main/FOTA" target="_blank">ADAS_Project</a></p>
-## CAN Communication
+## CAN Communication protocol 
 ##### CAN_H and CAN_L: 
 - The two microcontrollers (STM32F103C6 and STM32F13C6) are connected via CAN_H and CAN_L lines, which are the differential signal lines used in CAN communication.
 ##### Data Flow:
