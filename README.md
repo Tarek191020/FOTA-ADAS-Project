@@ -39,6 +39,7 @@
 
 - [General Overview For the Project](#General-Overview-For-the-Project)
 - [Firmware Over The Air (FOTA)](#Firmware-Over-The-Air-(FOTA))
+- [BootLoader](#Bootloader)
 - [Advanced Driving Assistant System (ADAS)](#Advanced-Driving-Assistant-System-(ADAS))
 - [CAN Communication](#CAN-Communication)
 - [Special Thanks](#Special-Thanks)
